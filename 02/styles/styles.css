@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.products button {
+    width: 100px;
+    margin-left: calc(50% - 50px);
+    margin-top: 10px;
+}
+
+.product {
+    width: 20%;
+    position: relative;
+}
+
+.desc {
+    position: absolute;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.productImage {
+    width: 100%;
+    margin-top: 10px;
+    transition: .5s;
+}
